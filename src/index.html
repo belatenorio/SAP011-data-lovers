@@ -9,7 +9,23 @@
 
 <body>
   <div id="root"></div>
-  <script src="main.js" type="module"></script>
+  <label for="director">Escolha um diretor:</label>
+  <select id="director" name="director">
+    <option value="all">Todos</option>
+    <!-- Opções dos diretores serão preenchidas via JavaScript -->
+  </select>
+  <label for="release_date">Escolha um ano:</label>
+  <select id="release_date">
+    <option value="all">Todos</option>
+    <!-- Opções dos anos serão preenchidas via JavaScript -->
+  </select>
+
+  <label for="order">Ordenar por:</label>
+  <select id="order">
+    <option value="az">A-Z</option>
+    <option value="za">Z-A</option>
+  </select>
+
   <img src="" alt="" id="poster">
   <p id="title"></p>
   <p id="description"></p>
@@ -17,6 +33,7 @@
   <div id="list"></div>
 
   </div>
+  <script src="main.js" type="module"></script>
 </body>
 
 </html>
