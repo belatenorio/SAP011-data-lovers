@@ -41,11 +41,13 @@ function createFilmItem(film) {
 //Nessa função chamada showModal, o parâmetro filmId é passado para a função. O objetivo dela é exibir um modal com as informações do filme. Ela encontra o filme correto no dataset usando o filmId. Em seguida, preenche as informações do filme no modal. Por fim, preenche a lista de personagens.
 function showModal(filmId) {
   const film = data.films.find((f) => f.id === filmId);
-  //const percentage = computeStats(filmId);
+  //Calcula a porcentagem de personagens para um filme específico e armazena o resultado
   const percentage = computeStats(filmId, data);
 
+  // Encontra o elemento HTML com o id "percentage"
   const modalPercentage = document.getElementById("percentage");
 
+  // Define o conteúdo de texto do elemento HTML para mostrar a porcentagem
   modalPercentage.textContent = `O Filme ${film.title} possui ${percentage}% do total de personagens da franquia`;
 
   // Encontre o filme correto no dataset usando o filmId
