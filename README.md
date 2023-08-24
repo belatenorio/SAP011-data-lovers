@@ -2,6 +2,8 @@
 
 Bem-vindo ao Projeto Data Lovers, uma plataforma dedicada aos admiradores do Studio Ghibli. Este projeto dá vida a um universo interativo para os fãs, proporcionando uma experiência abrangente para explorar informações detalhadas sobre os filmes do estúdio, diretores e personagens icônicos.
 
+### Para acessar o projeto [clique aqui](https://belatenorio.github.io/SAP011-data-lovers/filmografia.html)
+
 ## Definição do Produto
 
 O produto é uma página web interativa e informativa destinada a fornecer aos fãs do Studio Ghibli uma plataforma para explorar e aprender mais sobre a filmografia do estúdio, suas animações, diretores, personagens e detalhes relevantes. Através desta página, os usuários podem mergulhar no mundo das animações do Studio Ghibli, compreendendo melhor os filmes e suas informações respectivas.
