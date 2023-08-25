@@ -36,6 +36,17 @@ Dentro da página de detalhes do filme, os usuários podem ver a porcentagem de 
 
 ![Animação](/2023-08-23-22-22-35.gif)
 
+## Testes de usabilidade: descrição dos problemas de usabilidade detectados e sua resolução
+
+Nos testes de usabilidade foram sugeridos:
+
+* Local para remover o filtro aplicado
+* Dificuldade de visualizar as informaçõe e dados do card
+* Alguns usuários não compreenderam o cálculo realizado
+* Melhorar a identidade visual do site
+
+Como no teste de usabilidade fornecemos como parâmetro a aplicação web, pretendemos acrescentar as sugestões em implementações futuras.
+
 ## Como Executar o Projeto
 
 1. Clone o repositório para a sua máquina local.
